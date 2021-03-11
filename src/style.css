@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+.card {
+  display: inline-block;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 4rem;
+}
+.card-top {
+  display: flex;
+  justify-content: flex-start;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+}
+.card-bottom {
+  display: flex;
+  transform: rotate(180deg);
+}
+
+.btn {
+  font-size: 2rem;
+}
